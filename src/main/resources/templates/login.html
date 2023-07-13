@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Copa Delta Bytes</title>
+		<link rel="stylesheet" href="/css/bootstrap.css">
+		<link rel="stylesheet" href="/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<script type="text/javascript" src="/js/bootstrap.js"></script>
+		<script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="/js/sweetalert.min.js"></script>
+		<script type="text/javascript">
+			$('#btnEntrar').html(' Waiting Authentication ...');
+		</script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-6">
+				<div class="row" id="welcome">
+					<div class="row offset-4 col-4" >
+						<img src="/images/logo.png" alt="" id="logo">
+					</div>
+
+					<div class="row offset-2 col-8" >
+						<h1 id="lblLoginH1">Faça seu login</h1>
+					</div>
+				</div>
+
+		        <form class="" action="/copadeltabytes/login" method="post">
+					<div class="row offset-2 col-8 mb-5"></div>
+
+					<div class="row offset-2 col-8 mb-5">
+						<input id="txtLogin" type="text" name="txtLogin" value="" placeholder="E-mail"/>
+					</div>
+
+					<div class="row offset-2 col-8 mb-5">
+						<input id="txtSenha" type="text" name="txtSenha" value="" placeholder="Senha"/>
+					</div>
+					
+					<div class="row">
+						<div class="row offset-2 col-2">
+							<button type="submit" class="btn" id="btnEntrar" name="btnEntrar" value="Entrar">
+								<i class="mdi mdi-play"></i>
+							</button>
+						</div>
+						
+						<div class="row offset-1 col-2">
+							<a href="/copadeltabytes/usuario" class="btn" id="btnNovoUsuario" name="btnNovoUsuario" value="Novo">
+								<i class="mdi mdi-account-plus"></i>
+							</a>
+						</div>
+						
+						<div class="row offset-1 col-2">
+							<a href="/copadeltabytes/esquecisenha" class="btn" id="btnEsqueciSenha" name="btnEsqueciSenha" value="Esqueci a senha">
+								<i class="mdi mdi-comment-question-outline"></i>
+							</a>
+						</div>
+						
+					</div>
+					
+		        </form>
+			</div>
+			<div class="col-6">
+				<img id="campoLateral" src="/images/field.jpg" alt="">
+			</div>
+		</div>
+	</body>
+</html>

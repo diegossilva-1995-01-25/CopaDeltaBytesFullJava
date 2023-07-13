@@ -1,0 +1,73 @@
+/*input, button {
+    width: 20vw;
+}*/
+
+@font-face {
+    font-family: '../fonts/Premier 2019';
+    src: url('../fonts/Premier-2019.eot');
+    src: url('../fonts/Premier-2019.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Premier-2019.woff2') format('woff2'),
+        url('../fonts/Premier-2019.woff') format('woff'),
+        url('../fonts/Premier-2019.ttf') format('truetype'),
+        url('../fonts/Premier-2019.svg#Premier-2019') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Premier 2019", Fallback, sans-serif;
+    font-size: 3vw;
+    color: black;
+}
+
+#lblLoginH1 {
+	color: white;
+}
+
+#welcome {
+    background-color: #44a74c;
+    border-radius: 1vw;
+}
+
+#campoLateral {
+    height: 54vw;
+    width: 49vw;
+}
+
+#logo {
+    height: 10vw;
+    width: 15vw;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #44a74c;
+    font-size: 2vw;
+    font-family: "Premier 2019", Fallback, sans-serif;
+}
+
+#btnEntrar, #btnSalvar, #btnEnviar, #btnEditar, #btnExcluir, #btnJogador, #btnCampeonato, #btnSenha, #btnJogo, #btnNovoUsuario,
+#btnNovoJogador, #btnNovoCampeonato, #btnEsqueciSenha {
+    font-size: 3vw;
+    background-color: #44a74c;
+    color: white;
+}
+
+table {
+    margin-left: 4vw;
+}
+
+th, td {
+    border: 1vw solid #44a74c;
+    font-size: 1.5vw;
+    font-family: "Premier 2019", Fallback, sans-serif;
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+}

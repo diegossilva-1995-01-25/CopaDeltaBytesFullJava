@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Copa Delta Bytes</title>
+		<link rel="stylesheet" href="/css/bootstrap.css">
+		<link rel="stylesheet" href="/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<script type="text/javascript" src="/js/bootstrap.js"></script>
+		<script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="/js/sweetalert.min.js"></script>
+		<script type="text/javascript">
+			$('#btnSalvar').html(' Saving ...');
+		</script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="row" id="header">
+				<div class="col-2" >
+					<a href="/copadeltabytes/"> 
+						<img src="/images/logo.png" alt="" id="logo">
+					</a>
+				</div>
+
+				<div class="col-10" >
+					<img id="campoLateral" src="/images/field.jpg" alt="" style="height: 10vw; width: 85vw;">
+				</div>
+			</div>
+
+			<div class="row offset-2 col-8" >
+				<h1>Cadastro de Usuário</h1>
+			</div>
+		</div>
+        <form class="" action="/usuario" method="post">
+			<div class="row offset-2 col-8 mb-5">
+            	<input id="txtEmail" type="text" name="txtEmail" value="" placeholder="E-mail"/>
+			</div>
+
+			<div class="row offset-2 col-8 mb-5">
+            	<input id="txtNome" type="text" name="txtNome" value="" placeholder="Nome"/>
+			</div>
+
+			<div class="row offset-2 col-8 mb-5">
+            	<input id="txtSenha" type="text" name="txtSenha" value="" placeholder="Senha"/>
+			</div>
+
+			<div class="row offset-2 col-8 mb-5">
+            	<input id="txtConfirmarSenha" type="text" name="txtConfirmarSenha" value="" placeholder="Confirmar a Senha"/>
+			</div>
+
+			<div class="row offset-2 col-8 mb-5">
+            	<button id="btnEntrar" type="submit" name="btnEntrar" value="Salvar"> <i class="mdi mdi-content-save"></i> </button>
+			</div>
+        </form>
+	</body>
+</html>
