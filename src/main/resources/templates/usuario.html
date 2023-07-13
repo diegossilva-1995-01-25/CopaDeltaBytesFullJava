@@ -29,9 +29,9 @@
 				<h1>Cadastro de Usuário</h1>
 			</div>
 		</div>
-        <form class="" action="/usuario" method="post">
+        <form class="" action="/copadeltabytes/usuario/salvar" method="post" th:object="${usuario}">
 			<div class="row offset-2 col-8 mb-5">
-            	<input id="txtEmail" type="text" name="txtEmail" value="" placeholder="E-mail"/>
+            	<input id="txtEmail" type="email" name="txtEmail" value="" placeholder="E-mail"/>
 			</div>
 
 			<div class="row offset-2 col-8 mb-5">
@@ -39,11 +39,11 @@
 			</div>
 
 			<div class="row offset-2 col-8 mb-5">
-            	<input id="txtSenha" type="text" name="txtSenha" value="" placeholder="Senha"/>
+            	<input id="txtSenha" type="password" name="txtSenha" value="" placeholder="Senha"/>
 			</div>
 
 			<div class="row offset-2 col-8 mb-5">
-            	<input id="txtConfirmarSenha" type="text" name="txtConfirmarSenha" value="" placeholder="Confirmar a Senha"/>
+            	<input id="txtConfirmarSenha" type="password" name="txtConfirmarSenha" value="" placeholder="Confirmar a Senha"/>
 			</div>
 
 			<div class="row offset-2 col-8 mb-5">
